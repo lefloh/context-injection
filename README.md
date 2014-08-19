@@ -5,7 +5,7 @@ Simple project that tests class-level injection by RESTeasy. This will fail unde
 * The Injected class is not scanned by RESTeasy. It's manually added via [Application.getSingletons()][1].
 * There is a beans.xml file found in the classpath.
 
-The [InjectionTest][src/test/java/de/utkast/rest/contextinjection/InjectionTest] will fail if you rename [src/main/webapp/WEB-INF/_beans.xml] to beans.xml.
+The [InjectionTest](src/test/java/de/utkast/rest/contextinjection/InjectionTest.java) will fail if you rename [\_beans.xml\_](src/main/webapp/WEB-INF/_beans.xml_) to beans.xml.
 
 See also [@Context issue when migrating from JBoss 7.1.1 to Wildfly][2].
 
